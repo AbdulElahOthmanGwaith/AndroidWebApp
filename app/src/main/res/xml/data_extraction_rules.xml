@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="."/>
+        <exclude domain="database" path="webview.db"/>
+        <exclude domain="database" path="webviewCache.db"/>
+        <exclude domain="cache" path="."/>
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="."/>
+        <exclude domain="database" path="webview.db"/>
+        <exclude domain="database" path="webviewCache.db"/>
+    </device-transfer>
+</data-extraction-rules>

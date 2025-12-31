@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Background -->
+    <path
+        android:fillColor="#6750A4"
+        android:pathData="M0,0h512v512h-512z"/>
+    <!-- Browser window -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,96h400v320h-400z"/>
+    <!-- Address bar -->
+    <path
+        android:fillColor="#EADDFF"
+        android:pathData="M76,120h320v40h-320z"/>
+    <!-- Content area -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M76,180h360v212h-360z"/>
+    <!-- Bottom bar -->
+    <path
+        android:fillColor="#EADDFF"
+        android:pathData="M76,400h360v8h-360z"/>
+</vector>
